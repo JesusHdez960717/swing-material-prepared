@@ -2,9 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.jhw.personalization'
-
-//mainClassName = 'com.jhw.personalization.Main'
+group = 'com.jhw.swing.prepared'
 
 repositories {
     jcenter()
@@ -15,13 +13,16 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.13'
     
-    implementation project(':utils')
-    implementation project(':clean-core')
+    implementation project(':clean-core-full')
     implementation project(':clean-swing')
-    implementation project(':derivable-icons')
-    implementation project(':material-standards')
-    implementation project(':material-personalization')
-    implementation project(':material-swing')
+    
+    implementation project(':utils-core')
+    
+    implementation project(':swing-derivable_icons')
+    implementation project(':swing-material-core')
+    implementation project(':swing-material-standards')
+    
+    implementation project(':module-util-personalization')
 
     compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
     compile group: 'javax.inject', name: 'javax.inject', version: '1'
