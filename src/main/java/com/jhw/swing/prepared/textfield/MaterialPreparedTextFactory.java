@@ -17,11 +17,18 @@ import com.jhw.swing.material.components.textfield.MaterialTextFieldIcon;
 public class MaterialPreparedTextFactory {
 
     public static MaterialFormatedTextField buildFormatedMoney() {
-        return _MaterialTextFieldMoney.from();
+        return _MaterialTextFieldMoney.from(false);
     }
 
+    public static MaterialFormatedTextField buildFormatedMoney(boolean negative) {
+        return _MaterialTextFieldMoney.from(negative);
+    }
     public static MaterialFormatedTextFieldIcon buildFormatedMoneyIcon() {
-        return _MaterialTextFieldMoneyIcon.from();
+        return _MaterialTextFieldMoneyIcon.from(false);
+    }
+
+    public static MaterialFormatedTextFieldIcon buildFormatedMoneyIcon(boolean negative) {
+        return _MaterialTextFieldMoneyIcon.from(negative);
     }
 
     public static MaterialTextField buildDouble() {
