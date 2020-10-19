@@ -17,11 +17,19 @@ import com.jhw.swing.material.components.textfield.MaterialTextFieldIcon;
 public class MaterialPreparedTextFactory {
 
     public static MaterialFormatedTextField buildFormatedMoney() {
-        return _MaterialTextFieldMoney.from();
+        return _MaterialTextFieldMoney.from(false);
+    }
+
+    public static MaterialFormatedTextField buildFormatedMoney(boolean negative) {
+        return _MaterialTextFieldMoney.from(negative);
     }
 
     public static MaterialFormatedTextFieldIcon buildFormatedMoneyIcon() {
-        return _MaterialTextFieldMoneyIcon.from();
+        return _MaterialTextFieldMoneyIcon.from(false);
+    }
+
+    public static MaterialFormatedTextFieldIcon buildFormatedMoneyIcon(boolean negative) {
+        return _MaterialTextFieldMoneyIcon.from(negative);
     }
 
     public static MaterialTextField buildDouble() {
@@ -32,11 +40,27 @@ public class MaterialPreparedTextFactory {
         return _MaterialTextFieldDoubleIcon.from();
     }
 
+    public static MaterialTextField buildDouble(boolean negative) {
+        return _MaterialTextFieldDouble.from(negative);
+    }
+
+    public static MaterialTextFieldIcon buildDoubleIcon(boolean negative) {
+        return _MaterialTextFieldDoubleIcon.from(negative);
+    }
+
     public static MaterialTextField buildInteger() {
         return _MaterialTextFieldInteger.from();
     }
 
+    public static MaterialTextField buildInteger(boolean negative) {
+        return _MaterialTextFieldInteger.from(negative);
+    }
+
     public static MaterialTextFieldIcon buildIntegerIcon() {
         return _MaterialTextFieldIntegerIcon.from();
+    }
+
+    public static MaterialTextFieldIcon buildIntegerIcon(boolean negative) {
+        return _MaterialTextFieldIntegerIcon.from(negative);
     }
 }

@@ -17,8 +17,8 @@ import java.math.BigDecimal;
  */
 public class _MaterialTextFieldMoneyIcon extends _MaterialFormatedTextFieldIcon<BigDecimal> {
 
-    public static MaterialFormatedTextFieldIcon from() {
-        return new _MaterialTextFieldMoneyIcon();
+    public static MaterialFormatedTextFieldIcon from(boolean negative) {
+        return new _MaterialTextFieldMoneyIcon(negative);
     }
 
     public _MaterialTextFieldMoneyIcon() {
