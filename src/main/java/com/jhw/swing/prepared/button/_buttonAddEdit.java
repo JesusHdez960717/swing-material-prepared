@@ -1,12 +1,12 @@
 package com.jhw.swing.prepared.button;
 
-import com.jhw.swing.material.components.button._MaterialButton;
 import java.awt.Dimension;
 import com.jhw.module.util.personalization.core.domain.Personalization;
 import com.jhw.module.util.personalization.services.PersonalizationHandler;
 import com.jhw.swing.material.injection.Background_Force_Foreground;
 import com.jhw.swing.material.injection.Foreground_Force_Icon;
 import com.jhw.swing.material.injection.MaterialSwingInjector;
+import java.awt.Color;
 
 /**
  * MaterialButton con background getColorButtonAdd, e icon iconButtonAdd de la
@@ -35,6 +35,7 @@ public class _buttonAddEdit extends MaterialButtonAddEdit {
         this.isCreated(true);
     }
 
+    @Override
     public void isCreated(boolean created) {
         this.setIcon(created ? PersonalizationHandler.getDerivableIcon(Personalization.KEY_ICON_BUTTON_ADD) : PersonalizationHandler.getDerivableIcon(Personalization.KEY_ICON_BUTTON_EDIT));
         this.setText(created ? "Crear" : "Editar");
