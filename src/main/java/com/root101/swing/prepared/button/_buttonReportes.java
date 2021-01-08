@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jhw.swing.prepared.button;
+package com.root101.swing.prepared.button;
 
 import com.root101.swing.material.components.button.MaterialButton;
 import com.root101.swing.material.components.button._MaterialButtonPopup;

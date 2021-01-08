@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jhw.swing.prepared.exmaples;
+package com.root101.swing.prepared.exmaples;
 
 import com.root101.swing.material.components.container.layout.VerticalLayoutContainer;
 import com.root101.swing.material.components.textfield.MaterialFormatedTextField;
@@ -11,7 +11,7 @@ import com.root101.swing.material.components.textfield.MaterialFormatedTextField
 import com.root101.swing.material.components.textfield.MaterialTextField;
 import com.root101.swing.material.components.textfield.MaterialTextFieldIcon;
 import com.root101.swing.material.standards.MaterialColors;
-import com.jhw.swing.prepared.textfield.MaterialPreparedTextFactory;
+import com.root101.swing.prepared.textfield.MaterialPreparedTextFactory;
 import com.root101.swing.ui.MaterialLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.Dimension;

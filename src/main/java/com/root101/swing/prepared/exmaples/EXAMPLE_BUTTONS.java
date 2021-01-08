@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jhw.swing.prepared.exmaples;
+package com.root101.swing.prepared.exmaples;
 
 import com.root101.swing.material.components.button.*;
 import com.root101.swing.material.components.container.layout.VerticalLayoutContainer;
 import com.root101.swing.material.standards.MaterialColors;
-import com.jhw.swing.prepared.button.MaterialButtonAddEdit;
-import com.jhw.swing.prepared.button.MaterialPreparedButtonsFactory;
+import com.root101.swing.prepared.button.MaterialButtonAddEdit;
+import com.root101.swing.prepared.button.MaterialPreparedButtonsFactory;
 import com.root101.swing.ui.MaterialLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

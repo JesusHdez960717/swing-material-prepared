@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jhw.swing.prepared.exmaples;
+package com.root101.swing.prepared.exmaples;
 
 //import com.root101.swing.material.components.combobox.combobox_editable._MaterialComboBoxFiltrable;
 import com.root101.swing.material.components.textarea.MaterialTextArea;
 import com.root101.swing.material.standards.MaterialColors;
-import com.jhw.swing.prepared.textarea.MaterialPreparedTextAreaFactory;
+import com.root101.swing.prepared.textarea.MaterialPreparedTextAreaFactory;
 import com.root101.swing.ui.MaterialLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.Checkbox;

@@ -1,4 +1,4 @@
-package com.jhw.swing.prepared.button;
+package com.root101.swing.prepared.button;
 
 import java.awt.Dimension;
 import com.jhw.module.util.personalization.core.domain.Personalization;
