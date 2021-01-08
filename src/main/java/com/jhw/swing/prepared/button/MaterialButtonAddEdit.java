@@ -5,7 +5,7 @@
  */
 package com.jhw.swing.prepared.button;
 
-import com.jhw.swing.material.components.button._MaterialButton;
+import com.root101.swing.material.components.button._MaterialButton;
 
 /**
  *

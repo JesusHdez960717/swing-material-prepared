@@ -5,10 +5,10 @@
  */
 package com.jhw.swing.prepared.textfield;
 
-import com.jhw.swing.material.components.textfield.MaterialFormatedTextField;
-import com.jhw.swing.material.components.textfield.MaterialFormatedTextFieldIcon;
-import com.jhw.swing.material.components.textfield._MaterialFormatedTextFieldIcon;
-import com.jhw.swing.material.standards.MaterialIcons;
+import com.root101.swing.material.components.textfield.MaterialFormatedTextField;
+import com.root101.swing.material.components.textfield.MaterialFormatedTextFieldIcon;
+import com.root101.swing.material.components.textfield._MaterialFormatedTextFieldIcon;
+import com.root101.swing.material.standards.MaterialIcons;
 import java.math.BigDecimal;
 
 /**

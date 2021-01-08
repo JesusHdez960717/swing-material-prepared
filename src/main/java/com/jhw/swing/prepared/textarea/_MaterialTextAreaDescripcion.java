@@ -5,7 +5,7 @@
  */
 package com.jhw.swing.prepared.textarea;
 
-import com.jhw.swing.material.components.textarea.MaterialTextArea;
+import com.root101.swing.material.components.textarea.MaterialTextArea;
 
 /**
  *

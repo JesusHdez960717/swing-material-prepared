@@ -5,37 +5,15 @@
  */
 package com.jhw.swing.prepared.exmaples;
 
-//import com.jhw.swing.material.components.combobox.combobox_editable._MaterialComboBoxFiltrable;
-import com.jhw.swing.examples.*;
-import com.jhw.swing.material.components.container.layout.VerticalLayoutContainer;
-import com.jhw.swing.material.components.filechooser.MaterialFileChoosersFactory;
-import com.jhw.swing.material.components.labels.MaterialLabel;
-import com.jhw.swing.material.components.labels.MaterialLabelDoble;
-import com.jhw.swing.material.components.labels.MaterialLabelDobleMoney;
-import com.jhw.swing.material.components.labels.MaterialLabelMoney;
-import com.jhw.swing.material.components.labels.MaterialLabelsFactory;
-import com.jhw.swing.material.components.passwordfield.MaterialPasswordField;
-import com.jhw.swing.material.components.passwordfield.MaterialPasswordFieldFactory;
-import com.jhw.swing.material.components.progress._MaterialProgressSpinner;
-import com.jhw.swing.material.components.scrollpane.MaterialScrollFactory;
-import com.jhw.swing.material.components.scrollpane.MaterialScrollPane;
-import com.jhw.swing.material.components.scrollpane._MaterialScrollPaneCore;
-import com.jhw.swing.material.components.textarea.MaterialTextAreaFactory;
-import com.jhw.swing.material.components.textarea.DefaultContentArea;
-import com.jhw.swing.material.components.textarea.MaterialTextArea;
-import com.jhw.swing.material.components.textarea._MaterialTextArea;
-import com.jhw.swing.material.standards.MaterialColors;
-import com.jhw.swing.material.standards.MaterialFontRoboto;
+//import com.root101.swing.material.components.combobox.combobox_editable._MaterialComboBoxFiltrable;
+import com.root101.swing.material.components.textarea.MaterialTextArea;
+import com.root101.swing.material.standards.MaterialColors;
 import com.jhw.swing.prepared.textarea.MaterialPreparedTextAreaFactory;
-import com.jhw.swing.ui.MaterialLookAndFeel;
+import com.root101.swing.ui.MaterialLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.Checkbox;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.math.BigDecimal;
-import javax.swing.JTable;
-import javax.swing.JTextArea;
-import javax.swing.SwingConstants;
 import javax.swing.UIManager;
 
 /**
