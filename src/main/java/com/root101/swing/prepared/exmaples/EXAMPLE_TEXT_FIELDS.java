@@ -52,7 +52,6 @@ public class EXAMPLE_TEXT_FIELDS extends javax.swing.JFrame {
         //-------------------SIMPLE-------------------------
         VerticalLayoutContainer.builder vlcSimple = VerticalLayoutContainer.builder();
 
-
         MaterialTextField textFieldDouble = MaterialPreparedTextFactory.buildDouble();
         textFieldDouble.setLabel("text field simple double");
         vlcSimple.add(textFieldDouble, true);
