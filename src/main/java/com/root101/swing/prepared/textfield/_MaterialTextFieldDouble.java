@@ -31,11 +31,11 @@ public class _MaterialTextFieldDouble extends _MaterialTextField<Double> {
     public static MaterialTextField from() {
         return new _MaterialTextFieldDouble();
     }
-    
+
     public static MaterialTextField from(boolean negative) {
         return new _MaterialTextFieldDouble(negative);
     }
-    
+
     private boolean negative = false;
 
     public _MaterialTextFieldDouble() {

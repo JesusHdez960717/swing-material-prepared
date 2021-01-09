@@ -18,8 +18,8 @@ package com.root101.swing.prepared.button;
 
 import com.root101.swing.material.components.button._MaterialButton;
 import java.awt.Dimension;
-import com.jhw.module.util.personalization.core.domain.Personalization;
-import com.jhw.module.util.personalization.services.PersonalizationHandler;
+import com.root101.module.util.personalization.core.domain.Personalization;
+import com.root101.module.util.personalization.services.PersonalizationHandler;
 import com.root101.swing.material.injection.Background_Force_Foreground;
 import com.root101.swing.material.injection.Foreground_Force_Icon;
 import com.root101.swing.material.injection.MaterialSwingInjector;
