@@ -12,8 +12,6 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.13'
-    
     implementation project(':clean-core')
     implementation project(':clean-swing')
     
@@ -25,6 +23,5 @@ dependencies {
     
     implementation project(':module-util-personalization')
 
-    compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
-    
+    implementation 'com.google.inject:guice:5.0.1'
 }
